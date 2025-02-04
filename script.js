@@ -95,6 +95,18 @@ if(week==7 || week==6){
 
 //10-Topshiriq
 //Berilgan to‘rtta sonning faqat ikkitasining yig‘indisi 50 ga teng bo‘lsa, "mos juftlik" deb chiqaring.
+let raqa1=+prompt("1-son")
+let raqa2=+prompt("2-son")
+let raqa3=+prompt("3-son")
+let raqa4=+prompt("4-son")
+
+if(raqa1+raqa2==50 ||raqa1+raqa3==50 ||raqa1+raqa4==50 ||
+    raqa2+raqa3==50 ||raqa2+raqa4==50 || raqa3+raqa4==50{
+        console.log("Mos juftlik");
+        
+    }
+)
+
 
 
 //11-Topshiriq
